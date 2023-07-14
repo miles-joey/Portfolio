@@ -1,0 +1,158 @@
+/* 
+colors
+#ab5429 brown
+#211932 navy blue
+#f8f8f8 light grey
+
+#f4f4f4 extra light grey for my work category 
+#ffffff white  
+#171027 extra dark navy(more for sticky menu)
+#8e8899 light grey font for sticky menu
+#f79f1b mustard color of his shirt
+*/
+
+/* universal styles */
+li {
+    list-style: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    /* right align? */
+}
+
+/* repeated styles */
+.GIT {
+    font-family: ariel;
+    font-size: 30px;
+    color: white;
+    background-color: navy;
+    margin: 10px 20px;
+    border-radius: 0 40px 0 40px;
+}
+
+/* header styles */
+
+header {
+    background-color: #f8f8f8;
+}
+
+
+
+
+h1 {
+    color:blue;
+}
+
+/********ABOUT ME SECTION***********/
+h2 {
+    font-size: 32px;
+    align-content: left;
+}
+
+h3 {
+    font-size: 10px;
+    background-color: brown;
+    color: white;
+    border-radius: 50%;
+    align-items: left;
+}
+
+.stats {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:500px;
+}
+
+.stats div:first child {
+    color: brown;
+} 
+
+/* my work section */
+.gallery {
+
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    gap: 20px
+}
+
+.flexContainer li {
+    width: 200px;
+    height: 200px;
+
+    background-size: cover;
+
+    border-radius: 5%;
+}
+
+.flexContainer li div{
+    background-color: whitesmoke;
+    border-radius: 5%;
+    margin: 5px;
+    margin-top:130px;
+
+    /* display: none; */
+    opacity: 0;
+}
+
+.flexContainer li div:hover {
+    opacity: 100%;
+    transition: 1.2s;
+}
+
+
+/* images for gallery */
+.g1 {
+    background-image: url('./assets/DSC06711.JPG');
+}
+
+.g2 {
+    background-image: url('./assets/DSC06738.JPG');
+}
+
+.g3 {
+    background-image: url('./assets/DSC06963.JPG');
+}
+
+.g4 {
+    background-image: url('./assets/DSC07962.JPG');
+}
+
+.g5 {
+    background-image: url('./assets/DSC06723.JPG');
+}
+
+.g6 {
+    background-image: url('./assets/DSC06852.JPG');
+}
+
+.g7 {
+    background-image: url('./assets/DSC08206.JPG');
+}
+
+.g8 {
+    background-image: url('./assets/DSC07001.JPG');
+}
+
+.g9 {
+    background-image: url('./assets/DSC07106.JPG');
+}
+
+
+
+/* footer stuff */
+.iconFlex {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+
+}
