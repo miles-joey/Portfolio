@@ -11,6 +11,15 @@ colors
 #f79f1b mustard color of his shirt
 */
 
+
+
+/* fonts
+font-family: 'Martel', serif;
+font-family: 'Martel Sans', sans-serif;
+*/
+
+
+
 /* universal styles */
 li {
     list-style: none;
@@ -21,6 +30,10 @@ li {
     width: 100%;
     max-width: 1400px;
     /* right align? */
+}
+
+* {
+    font-family: 'Martel Sans', sans-serif;
 }
 
 /* repeated styles */
@@ -44,6 +57,7 @@ header {
 
 h1 {
     color:blue;
+    font-family: 'Martel', serif;
 }
 
 /********ABOUT ME SECTION***********/
@@ -71,6 +85,7 @@ h3 {
 
 .stats div:first child {
     color: brown;
+    /*how i make work?*/
 } 
 
 /* my work section */
