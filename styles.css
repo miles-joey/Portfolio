@@ -61,8 +61,22 @@ body {
     transition: 0.5s;
 }
 
-/* header styles */
+/* sticky Nav styles */
+.stickyNav {
+    display: none;
+    /* testing */
+    /* display:flex;
+    justify-content: column; */
+}
 
+.navPartSticky {
+    display: flex;
+    justify-content: column;
+}
+
+
+
+/* header styles */
 header {
     height: 100vh;
     
@@ -74,7 +88,7 @@ header {
 
     background-image:
     linear-gradient(
-        rgba(212, 212, 212, 0.6),
+        rgba(199, 195, 218, 0.6),
         rgba(155, 155, 157, 0.6)
     ),
     url("./assets/DSC08222.JPG");
@@ -351,4 +365,13 @@ form input {
     gap: 10px;
     color:#ab5429;
     font-size: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
