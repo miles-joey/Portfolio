@@ -9,7 +9,10 @@ colors
 #171027 extra dark navy(more for sticky menu)
 #8e8899 light grey font for sticky menu
 #f79f1b mustard color of his shirt
-*/
+
+
+#1E2357
+image circle*/
 
 
 
@@ -36,6 +39,10 @@ li {
     font-family: 'Martel Sans', sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 /* repeated styles */
 .GIT {
     font-family: 'Martel Sans', sans-serif;
@@ -57,13 +64,26 @@ li {
 /* header styles */
 
 header {
-    background-color: rgb(174, 169, 169);
+    height: 100vh;
+    
+
     /*  grey for testing purposes */
     padding-top: 50px;
+    background-position:inherit;
+    background-repeat: no-repeat;
+
+    background-image:
+    linear-gradient(
+        rgba(212, 212, 212, 0.6),
+        rgba(155, 155, 157, 0.6)
+    ),
+    url("./assets/DSC08222.JPG");
+
 }
 
 nav {
     display: inline-block;
+    float: right;
 }
 
 
@@ -82,7 +102,7 @@ nav ul {
 
 
 h4 {
-    color:#706c6c;
+    color:#2d2c3e;
     margin: 0;
     padding: 0;
     font-size: 32px;
@@ -97,6 +117,37 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+header p img {
+    width: 20px;
+    background-color: #ffffff00;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftHeader img {
+    /* width: 100%; */
+    height: 90vh;
+}
+
+.leftHeader {
+}
+
+.heroImg1 {
+
+}
+
+/* .heroImg1:hover {
+    z-index: -2;
+} */
+
+/* .heroImg2 {
+    z-index: -1;
+} */
+
 
 /********ABOUT ME SECTION***********/
 h2 {
@@ -132,6 +183,7 @@ h2 {
     min-height: 300px;
     padding: 40px 25px;
     border-radius: 20px;
+    margin: 0px 20px;
 }
 
 .stats div {
@@ -154,7 +206,44 @@ h2 {
     gap: 15px
 }
 
+/*my skills section */
+.techIcons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.techIcons li {
+    width: 50px;
+    font-size: 50px;
+    max-width: 50px;
+    color:#211932;;
+}
+
+.techIcons img {
+    width: 50px;
+    filter: invert(8%) sepia(17%) saturate(2539%) hue-rotate(221deg) brightness(95%) contrast(93%);
+}
+
+.techIcons li:hover {
+    color: #ab5429;
+    transition: 0.5s;
+}
+
+.techIcons img:hover {
+    filter: invert(39%) sepia(8%) saturate(4750%) hue-rotate(337deg) brightness(95%) contrast(87%);
+    transition: 0.5s;
+}
+
+
 /* my work section */
+.flexWork {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 400px; */
+}
+
 .gallery {
 
 }
@@ -163,12 +252,12 @@ h2 {
     display: flex;
     justify-content: flex-start;
     flex-wrap:wrap;
-    gap: 20px
+    gap: 30px
 }
 
 .flexContainer li {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
 
     background-size: cover;
 
@@ -177,9 +266,10 @@ h2 {
 
 .flexContainer li div{
     background-color: whitesmoke;
-    border-radius: 5%;
+    border-radius: 5px;
     margin: 5px;
     margin-top:130px;
+    max-height: 100px;
 
     /* display: none; */
     opacity: 0;
@@ -213,7 +303,7 @@ h2 {
 }
 
 .g6 {
-    background-image: url('./assets/DSC06852.JPG');
+    background-image: url('./assets/DSC08868.JPG');
 }
 
 .g7 {
@@ -233,6 +323,12 @@ h2 {
 .letsTalk {
     background-color: #211932;
     color: white;
+    padding-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 ::placeholder{
@@ -244,6 +340,7 @@ h2 {
 form input {
     border-radius: 50px;
     border: none;
+    max-width: 400px;
 }
 
 
@@ -253,5 +350,5 @@ form input {
     justify-content: center;
     gap: 10px;
     color:#ab5429;
-
+    font-size: 20px;
 }

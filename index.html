@@ -13,27 +13,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Martel:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
 <!-- google fonts -->
 
-    <script src="https://kit.fontawesome.com/414adb1e7e.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/414adb1e7e.js" crossorigin="anonymous"></script>
+
 </head>
 <!-------------------------------------------------------->
 <body>
     <header>
         <div class="wrapper">
-            <nav>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Corporate</a></li>
-                    <li class="makeBrown">|</li>
-                    <li><a>Blog</a></li>
-                </ul>
-            </nav>
-            <h4>Hello I'm</h4>
-            <h1>Joey Miles</h1>
-            <p>Web designer and developer based in Toronto, Canada. I have a passion for web design and love to create for web and mobile devices. If you have a project ideas just say hey, then get in touch.</p>
-            <button class="GIT">Get in touch</button>
-            <div>
-                <p><i class="fa-thin fa-phone"></i>(+123) 456 7890</p>
-                <p><i class="fa-sharp fa-light fa-envelope"></i></i>joey_miles@gmail.com</p>
+            <div class="leftHeader">
+                <img src="./assets/hero1-modified.png" alt="Picture of Joey!"
+                class="heroImg1">
+
+                <!-- <img src="./assets/hero2-modified.png" alt="Picture of Joey!"
+                class="heroImg2"> -->
+            </div>
+            <div class="rightHeader">
+                <nav>
+                    <ul>
+                        <li><a>Home</a></li>
+                        <li><a>Corporate</a></li>
+                        <li class="makeBrown">|</li>
+                        <li><a>Blog</a></li>
+                    </ul>
+                </nav>
+                <h4>Hello I'm</h4>
+                <h1>Joey Miles</h1>
+                <p>Web designer and developer based in Toronto, Canada. I have a passion for web design and love to create for web and mobile devices. If you have a project ideas just say hey, then get in touch.</p>
+                <button class="GIT">Get in touch</button>
+                <div>
+                    <p><img src="./assets/phone-icon.png" alt="icon of telephone" class="teleIcon">  (+123) 456 7890</p>
+                    <p><img src="./assets/email-icon.png" alt="icon of email symbol">  joey_miles@gmail.com</p>
+                </div>
             </div>
         </div>
     </header>
@@ -42,7 +52,7 @@
         <h2>About Me</h2>
         <h3 class="myStory">My Story</h3>
         <p>I'm a waiter and cafe manager with 12 years experience problem solving everything from cold food to burnt coffee</p>
-        <p>Let me make sure your website is the perfect tempurature with just the right about of caffeine</p>
+        <p>Let me make sure your website is the perfect tempurature with just the right amout of caffeine</p>
         
         <div class="stats">
             <div>
@@ -73,28 +83,59 @@
 
     <section class="services"></section>
 
-    <section class="my skills"></section>
+    <section class="my skills">
+        <h2>Tech Stack</h2>
+
+
+<ul class="techIcons">
+    <li><i class="fa-brands fa-html5"></i></li>
+    <li><i class="fa-brands fa-css3-alt"></i></li>
+    <li><i class="fa-brands fa-sass"></i></li>
+    <li><i class="fa-brands fa-square-js"></i></li>
+    <li><i class="fa-brands fa-react"></i></li>
+    <li><i class="fa-brands fa-github"></i></li>
+    <li><i class="fa-solid fa-mobile-screen"></i></li>
+    <li><i class="fa-solid fa-code-branch"></i></li>
+    <li class="fireBase"><img src="./assets/logo-firebase.svg" alt=""></li>
+</ul>
+
+
+<!-- CHANGE TO IMAGES LATER OPTION
+     <div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+        </div> -->
+
+
+    </section>
 
     <section class="my resume"></section>
 
     <section class="my work">
-        <div>
+        <div class="flexWork">
             <div>
-                <h2>My work</h2>
-                <h3>My Story</h3>
+                <h2>My Work</h2>
+                <h3 class="myStory">My Story</h3>
             </div>
 
-            <div>
+            <button class="GIT">Get in touch</button>
+
+            <!-- <div>
                 <ul>
                     <li>All catergories</li>
                     <li>web design</li>
                     <li>branding</li>
                     <li>photography</li>
                 </ul>
-            </div>
+            </div> -->
             <!--Might not need this filter selection ?? -->
-
-            <button class="GIT">Get in touch</button>
         </div>
 
         <div class="gallery">
@@ -102,7 +143,7 @@
                <li class="g1">
                 <div>
                     <div>
-                        <h4>Name</h4>
+                        <h4>Example 1</h4>
                         <p>Web Design</p>
                     </div>
                     <div><i class="fa-duotone fa-arrow-right-from-bracket"></i></div>
@@ -111,8 +152,8 @@
                <li class="g2">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Example 2</h4>
+                        <p>Web Design</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -120,8 +161,8 @@
                <li class="g3">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Example 2</h4>
+                        <p>Web Design</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -129,8 +170,8 @@
                <li class="g4">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Random</h4>
+                        <p>Random</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -138,8 +179,8 @@
                <li class="g5">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Pic of Animal</h4>
+                        <p>Street Photography</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -147,8 +188,8 @@
                <li class="g6">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Cool App!</h4>
+                        <p>Web Design</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -156,8 +197,8 @@
                <li class="g7">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Cute pic of me</h4>
+                        <p>Travel Photography</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -165,8 +206,8 @@
                <li class="g8">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Example 3!</h4>
+                        <p>Web Design</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -174,8 +215,8 @@
                <li class="g9">
                 <div>
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Travel pic!</h4>
+                        <p>Travel Photography</p>
                     </div>
                     <div><i></i></div>
                 </div>
@@ -195,7 +236,7 @@
 
         <form action="">
             <label class="formLabel" for="name">First Name</label>
-            <input type="text" placeholder="  First Name">
+            <input type="text" placeholder="  First Name" >
 
             <label class="formLabel" for="name">Last Name</label>
             <input type="text" placeholder="  Last Name">
@@ -207,7 +248,7 @@
             <input type="text" placeholder="  Subject">
 
             <label class="formLabel" for="text-area">Message</label>
-            <input type="text" placeholder="  Write your message!">
+            <input type="text" placeholder="  Write your message!" maxlength="500">
         </form>
     </section>
 
@@ -218,7 +259,7 @@
             <div><i class="fa-brands fa-twitter"></i></div>
             <div><i class="fa-brands fa-linkedin"></i></div>
         </div>
-        <p>Copyright <i class="fa-light fa-copyright"></i> | Designed by Joey Miles</p>
+        <p>Copyright © | Designed by Joey Miles</p>
         <button class="GIT">Get In Touch</button>
 
     </footer>
